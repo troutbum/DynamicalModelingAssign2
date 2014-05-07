@@ -4,15 +4,19 @@
 % % Note:  produces slightly different output compared with 
 % % example shown in class.  Different values of b, dt, tlast
 
-a = 20 ;
-b = 0.5 ;
-c = 5 ;
+Vin = 036 ;
+k1 = 0.02 ;
+kp = 6 ;
+Km = 13 ;
  
 dt    = 0.2 ;  
 tlast = 20 ; % s
  
 iterations = round(tlast/dt) ; 
 xall = zeros(iterations,1) ;
+
+ATP = 4 ;
+G = 3 ;
 
 x = c ;
 for i = 1:iterations 
