@@ -1,3 +1,9 @@
+% Dynamical Modeling Methods for Systems Biology
+% April 2014
+% Assignment 2 Part 1 & 2
+% Array computations for simple data analysis
+
+
 % % Use Euler's method to integrate simple one variable ODE
 % % Use program as template for more interesting models
 
